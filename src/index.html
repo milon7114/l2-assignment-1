@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>comforty e-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-sans">
+
+    <!----------------header part---------------->
+
+    <div class="bg-gary ">
+      <div
+        class="container flex justify-between sm:items-center text-secondary py-3"
+      >
+        <div class="flex justify-center items-center">
+          <img src="./img/icons/check.svg" />
+          <p>Free Shipping On All Orders Over $50</p>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+          <a href="#" class="flex justify-center items-center"
+            >Eng <img src="./img/icons/Group.svg"
+          /></a>
+          <a href="#">Faqs</a>
+          <a href="#" class="flex justify-center items-center"
+            ><img src="./img/icons/help.svg" /> Need help</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="bg-base">
+      <div class="container">
+        <div class="flex justify-between items-center py-3">
+          <a class="flex items-center justify-between gap-1" href="#">
+            <img class="w-10" src="/src/img/logo/Logo Icon.svg" alt="logo" />
+            <p class="font-bold text-2xl">Comforty</p>
+          </a>
+          <div class="w-full max-w-xl relative flex">
+            <input
+              type="text"
+              placeholder="Search here..."
+              class="w-full border-none pl-3 py-1 rounded-md focus:outline-none"
+            />
+            <span class="absolute right-4 top-1 text-lg text-gray-700">
+              <img src="./img/icons/search 1.svg" alt="search" />
+            </span>
+          </div>
+          <div class="flex justify-between gap-2 items-center">
+            <div
+              class="flex items-center justify-between gap-2 bg-white p-1 rounded-md"
+            >
+              <img src="./img/icons/cart.svg" alt="" />
+              <p>Cart</p>
+              <span
+                class="bg-green-900 w-5 h-5 p-0.5 rounded-full text-xs text-white text-center"
+              >
+                2</span
+              >
+            </div>
+            <div class="bg-white rounded-md p-1">
+              <a href="#"
+                ><img src="./img/icons/Heart 1.svg" alt="wishlist"
+              /></a>
+            </div>
+            <div class="bg-white rounded-md p-1">
+              <img src="./img/icons/Heart 1.svg" alt="profile" />
+            </div>
+          </div>
+        </div>
+      </div>
+<!----------------nav ber---------------->
+
+      <div class="bg-secondary">
+        <div class="container">
+          <span class="flex justify-between items-center py-3">
+            <ul class="flex justify-center items-center gap-5">
+              <li class="border-solid border-2 border-blue-950 p-1 rounded-sm">
+                <i class="fa-solid fa-bars"></i> <a href="#">All Catagories</a>
+              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <span>Contact: (808) 555-0111</span>
+          </span>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="flex justify-between items-center flex-shrink-0 gap-5 py-14"
+        >
+          <span
+            class="text-black flex flex-col justify-between items-start gap-6"
+          >
+            <p class="uppercase font-light">welcome to chairy</p>
+            <h1 class="text-6xl font-extrabold shadow-slate-600 capitalize">
+              best furniture collection for your interior.
+            </h1>
+            <button
+              class="bg-[#029FAE] px-2 py-1 text-white font-semibold rounded-sm"
+            >
+              Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </span>
+          <span>
+            <img src="./img/Product Image.svg" alt="chair" />
+          </span>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="flex justify-between items-center gap-5 bg-white shadow-md p-5 rounded-md"
+        >
+          <div class="flex justify-center items-center gap-3">
+            <a href="#"> <img src="./img/icons/box.png" alt="box" /> </a>
+            <span>
+              <h2 class="text-xl font-semibold">Discount</h2>
+              <p class="text-xs font-light">Every Week New Sales</p>
+            </span>
+          </div>
+          <div class="flex justify-center items-center gap-3">
+            <a class="w-14 h-10" href="#">
+              <img src="./img/icons/delivery-truck.png" alt="truck" />
+            </a>
+            <span>
+              <h2 class="text-xl font-semibold">Free Delivery</h2>
+              <p class="text-xs font-light">100% Free For All Orders</p>
+            </span>
+          </div>
+          <div class="flex justify-center items-center gap-3">
+            <a href="#"> <img src="./img/icons/24-hours.png" alt="hour" /> </a>
+            <span>
+              <h2 class="text-xl font-semibold">Great Support 24/7</h2>
+              <p class="text-xs font-light">We Care Your Experience</p>
+            </span>
+          </div>
+          <div class="flex justify-center items-center gap-3">
+            <a href="#"> <img src="./img/icons/shield.png" alt="box" /> </a>
+            <span>
+              <h2 class="text-xl font-semibold">Sequre Payment</h2>
+              <p class="text-xs font-light">100% Sequre Payment Method</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center gap-9">
+          <a href="#"><img src="./img/bank/1.svg" /></a>
+          <a href="#"><img src="./img/bank/2.svg" /></a>
+          <a href="#"><img src="./img/bank/3.svg" /></a>
+          <a href="#"><img src="./img/bank/4.svg" /></a>
+          <a href="#"><img src="./img/bank/5.svg" /></a>
+          <a href="#"><img src="./img/bank/6.svg" /></a>
+          <a href="#"><img src="./img/bank/7.svg" /></a>
+        </div>
+      </div>
+    </div>
+    <!----------feature product------->
+
+    <div class="container mt-10">
+      <div class="flex justify-between items-center mb-5">
+        <h1 class="text-3xl font-bold">Featured Products</h1>
+        <span class="flex justify-center items-center gap-1">
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-left"></i
+          ></a>
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </span>
+      </div>
+      <div class="flex justify-between items-center gap-3">
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 1.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-green p-1 rounded-md text-xs"
+              >New</span
+            >
+            <span
+              class="absolute top-3 right-3 w-6 h-6 bg-secondary rounded-md flex justify-center items-center"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w8 h8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 2.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-[#F5813F] p-1 rounded-md text-xs"
+              >Salse</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <img src="./img/product/chair 3.svg" alt="product" />
+          </a>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <img src="./img/product/chair 4.svg" alt="product" />
+          </a>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------Top catagories--------------------->
+
+    <div class="container mt-10">
+      <div class="flex justify-between items-center mb-5">
+        <h1 class="text-3xl font-bold">Top categories</h1>
+        <span class="flex justify-center items-center gap-1">
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-left"></i
+          ></a>
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </span>
+      </div>
+      <div class="flex justify-between items-center gap-3">
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/wing chair.svg" alt="product" />
+            </a>
+            <span
+              class="absolute bottom-0 w-full items-center text-secondary bg-[#000000B2] opacity-70 p-2"
+            >
+              <h2 class="font-semibold">Wing Chair</h2>
+              <p>3,584 Products</p>
+            </span>
+          </span>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/wooden chair.svg" alt="product" />
+            </a>
+            <span
+              class="absolute bottom-0 w-full items-center text-secondary bg-[#000000B2] opacity-70 p-2"
+            >
+              <h2 class="font-semibold">Wooden Chair</h2>
+              <p>157 Products</p>
+            </span>
+          </span>
+        </div>
+
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/desk chair.svg" alt="product" />
+            </a>
+            <span
+              class="absolute bottom-0 w-full items-center text-secondary bg-[#000000B2] opacity-70 p-2"
+            >
+              <h2 class="font-semibold">Desk Chair</h2>
+              <p>154 Products</p>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!----------------our product---------------->
+
+    <div class="container mt-10">
+      <div class="flex flex-col justify-center items-center mb-5">
+        <h1 class="text-3xl font-bold">Our Products</h1>
+        <ul class="flex justify-center items-center gap-4 uppercase">
+          <li><a href="#">All</a></li>
+          <li><a href="#">Newest</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Best saleing</a></li>
+          <li><a href="#">Featured</a></li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-4 justify-center items-center gap-3">
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 1.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-green p-1 rounded-md text-xs"
+              >New</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span>
+            <a href="#">
+              <img src="./img/product/chair 2.svg" alt="product" />
+            </a>
+            
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 3.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-green p-1 rounded-md text-xs"
+              >New</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 4.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-[#F5813F] p-1 rounded-md text-xs"
+              >Sales</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span>
+            <a href="#">
+              <img src="./img/product/chair 5.svg" alt="product" />
+            </a>
+            
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 6.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-[#F5813F] p-1 rounded-md text-xs"
+              >Sales</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 1.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-[#F5813F] p-1 rounded-md text-xs"
+              >Sales</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span>
+            <a href="#">
+              <img src="./img/product/chair 2.svg" alt="product" />
+            </a>            
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-300 mt-10">
+      <div class="container flex flex-col justify-between py-8">
+        <div class="flex justify-between items-center mb-5">
+          <h1 class="text-3xl font-bold">What client says about us</h1>
+          <span class="flex justify-center items-center gap-1">
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-secondary p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full bg-secondary p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </span>
+        </div>
+
+        <div class="flex justify-between items-center gap-5">
+          <div class="bg-secondary p-10 rounded-md">
+            <div class="flex justify-center items-center gap-3">
+              <span class="w-2 bg-primary p-1"></span>
+              <p>
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus sit amet mi nec massa tincidunt blandit et eu sem.
+                Maecenas laoreet ultrices diam dignissim posuere. Aenean
+                ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus.
+                In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit
+                et“
+              </p>
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="flex justify-center items-center gap-2">
+                <img src="./img/icons/women 1.svg" alt="" />
+                <span>
+                  <h2>Kristin Watson</h2>
+                  <p>Fashion Designer</p>
+                </span>
+              </div>
+              <img src="./img/icons/double_quotes_r 1.svg" alt="quots" />
+            </div>
+          </div>
+          <div class="bg-secondary p-10 rounded-md">
+            <div class="flex justify-center items-center gap-3">
+              <span class="w-2 bg-primary p-1"></span>
+              <p>
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus sit amet mi nec massa tincidunt blandit et eu sem.
+                Maecenas laoreet ultrices diam dignissim posuere. Aenean
+                ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus.
+                In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit
+                et“
+              </p>
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="flex justify-center items-center gap-2">
+                <img src="./img/icons/woman 2.svg" alt="" />
+                <span>
+                  <h2>Esther Howard</h2>
+                  <p>Fashion Designer</p>
+                </span>
+              </div>
+              <img src="./img/icons/double_quotes_r 1.svg" alt="quots" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------Recently Product------------------->
+    <div class="container mt-10">
+      <div class="flex justify-between items-center mb-5">
+        <h1 class="text-3xl font-bold">Featured Products</h1>
+        <span class="flex justify-center items-center gap-1">
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-left"></i
+          ></a>
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </span>
+      </div>
+      <div class="flex justify-between items-center gap-3">
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 1.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-green p-1 rounded-md text-xs"
+              >New</span
+            >
+            <span
+              class="absolute top-3 right-3 w-6 h-6 bg-secondary rounded-md flex justify-center items-center"
+              ><i class="fa-regular fa-heart"></i
+            ></span>
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w8 h8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <span class="relative">
+            <a href="#">
+              <img src="./img/product/chair 6.svg" alt="product" />
+            </a>
+            <span
+              class="absolute top-3 left-3 text-secondary bg-[#F5813F] p-1 rounded-md text-xs"
+              >Sales</span
+            >
+          </span>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <img src="./img/product/chair 3.svg" alt="product" />
+          </a>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <a href="#">
+            <img src="./img/product/chair 4.svg" alt="product" />
+          </a>
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="hover:text-primary">Library Stool Chair</h2>
+              <p class="font-bold text-sm">$20</p>
+            </span>
+            <a
+              href="#"
+              class="w-8 h-8 rounded-md bg-gray-300 p-2 flex justify-center items-center hover:bg-primary hover:text-white"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!---------------------footer------------------->
+
+    <div class="container flex justify-between items-start py-5 gap-8 mt-10 shadow-sm shadow-slate-600">
+      <div class="flex flex-col items-start gap-3">
+        <a class="flex items-start justify-center gap-1" href="#">
+          <img class="w-10" src="/src/img/logo/Logo Icon.svg" alt="logo" />
+          <p class="font-bold text-2xl">Comforty</p>
+        </a>
+        <p>
+          Vivamus tristique odio sit amet velit semper, eu posuere turpis
+          interdum. Cras egestas purus
+        </p>
+        <ul class="flex justify-center items-center gap-4 hover:">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-solid fa-camera"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg text-gray-300 uppercase">Catagories</h2>
+        <ul class="flex flex-col justify-between items-start">
+          <a href="#">Sofa</a>
+          <a href="#">Arm Chair</a>
+          <a href="#">Wing Chair</a>
+          <a href="#">Desk Chair</a>
+          <a href="#">Wooden Chair</a>
+          <a href="#">Park Bench </a>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg text-gray-300 uppercase">support</h2>
+        <ul class="flex flex-col justify-between items-start">
+          <a href="#">Help & Support</a>
+          <a href="#">Tearms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Help</a>
+        </ul>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <h2 class="text-lg text-gray-300 uppercase">Newsletter</h2>
+        <span class="flex justify-center items-center gap-3">
+          <input
+            type="text"
+            placeholder="Your email"
+            class="w-full border-s-gray-300 pl-3 py-1 rounded-md bg-slate-100"
+          />
+          <button
+            class="bg-[#029FAE] px-2 py-1 text-white font-semibold rounded-md hover:bg-white hover:text-primary"
+          >
+            Subscribe
+          </button>          
+        </span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          tincidunt erat enim.
+        </p>
+      </div>
+    </div>
+    <div class=" shadow-md shadow-slate-600 mt-5">
+      <div class="container flex justify-between items-center py-5">
+        <p>@ 2021 - Blogy - Designed & Develop by Zakirsoft</p>
+        <a href="#" >
+          <img class="w-30 h-8" src="./img/Screenshot_1.png" >
+        </a>
+      </div>
+    </div>
+    <div class="bg-primary mt-5 p-5">
+      <div class="container align-middle text-white font-bold"> This site isn't responsive due to my weakness in tailwindcss responsive.Need help more.</div>
+    </div>
+  </body>
+</html>
